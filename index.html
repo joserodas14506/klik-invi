@@ -7,10 +7,9 @@
         body {
           margin: 0;
         }
-        img {
+        img#web {
           max-width: 100%;
           vertical-align:top;
-           display: none;
         }
         img#responsive{
             display: none;
@@ -19,11 +18,14 @@
           img#responsive{
             display: block;
           }
+          img#web{
+            display: none;
+          }
         }
      </style>
   </head>
   <body>
     <img src="responsive.png" alt="" id="responsive">
-    <img src="nueva-version.jpg" alt="">
+    <img src="nueva-version.jpg" alt="" id="web">
   </body>
 </html>
